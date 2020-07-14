@@ -1,0 +1,4 @@
+
+Pphp:S121"0Add curly braces around the nested statement(s).(ίΰυόÿÿÿÿ8·ϋιρ΄.
+x	php:S3973"WUse curly braces or indentation to denote the code conditionally executed by this "if".(ίΰυόÿÿÿÿ8·ϋιρ΄.
+·	php:S2681	"•This statement will not be executed conditionally; only the first statement of this 2-statement block will be. The rest will execute unconditionally.(ε»”ϊÿÿÿÿ8·ϋιρ΄.
