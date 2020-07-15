@@ -38,14 +38,20 @@ class GenericVideo {
     public function getViewByPath(string $path) {}
 
     public function init() {
-
+        if(!file_exists($GLOBALS["fullyExpandedFileBasePath"] . "/videos/")) {
+            mkdir($GLOBALS["fullyExpandedFileBasePath"] . "/videos/");
+        }
     }
 
     public function getVideoList() {
-        $directories = array_diff(scandir($fullyExpandedFileBasePath . "/videos/"), ['.', '..']);
+        $directories = array_diff(scandir($GLOBALS["fullyExpandedFileBasePath"] . "/videos/"), ['.', '..']);
     }
 
     public function getDeepVideoInfo(string $name) {
+
+    }
+
+    private function parseVideoMetadata() {
 
     }
 
